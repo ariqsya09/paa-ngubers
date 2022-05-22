@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import SignUp from './SignUp/SignUp';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ChakraProvider } from '@chakra-ui/react';
@@ -14,6 +15,7 @@ root.render(
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<App />} />
+          <Route path='/SignUp' element={<SignUp />} />
         </Routes>
       </BrowserRouter>
     </ChakraProvider>
