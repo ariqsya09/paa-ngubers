@@ -14,7 +14,7 @@ import bike from './logo-bike.png';
 import "./Login.css";
 
 export default function Login() {
-  const [input, setInput] = useState('')
+  // const [input, setInput] = useState('')
     return (
     <SimpleGrid columns={2} spacing={10}>
         <Box>
@@ -33,7 +33,7 @@ export default function Login() {
                 <FormLabel>Password</FormLabel>
                 <Input type="password" placeholder="*******" />
               </FormControl>
-              <Button width="full" mt={4} type="submit">
+              <Button width="full" mt={4} type="submit" colorScheme="green">
                 Sign In
               </Button>
             </form>
