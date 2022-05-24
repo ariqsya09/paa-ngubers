@@ -14,7 +14,6 @@ import bike from './logo-bike.png';
 import "./SignUp.css";
 
 export default function SignUp() {
-  // const [input, setInput] = useState('')
     return (
     <SimpleGrid columns={2} spacing={10}>
         <Box>
